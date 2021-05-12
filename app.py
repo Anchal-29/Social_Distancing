@@ -27,7 +27,7 @@ def save_file(path):
         return False
 
 st.title("Distance Violation Detection for Social Distancing")
-st.info('This project is used to provide data to maintain social distancing ')
+st.info('This project is used to provide data for Social Distancing. ')
 if st.checkbox("Videos"):
         video=st.file_uploader('Upload a video',type=['mp4','3gp'])
         if video and st.button("UPLOAD"):
