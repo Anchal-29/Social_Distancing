@@ -52,9 +52,9 @@ if st.checkbox("Webcam"):
        
     
 if st.checkbox("About Project"):
-    st.image('sd3.jpg')
+    st.image('gif2.gif')
     st.info('Social distancing is important in times of epidemics and pandemics to prevent the spread of disease. Can we build a social distancing detector with OpenCV. ')
-    st.image('dig.gif')
+    st.image('gif1.gif')
     st.info(' Social distancing is crucial to preventing the spread of disease. Using computer vision technology based on OpenCV and YOLO-based deep learning, we are able to estimate the social distance of people in video streams. ')
     st.image('flow chart.png')
     st.info(' The steps involved in an OpenCV-based social distancing application.')
@@ -64,6 +64,6 @@ if st.checkbox("Creator info"):
     st.header("About The Project Creators")
     st.write('Anchal Singh')
     st.write('Deepmala')
-    st.image('code2.png')
+    st.image('code2.png',width=500)
 
     
